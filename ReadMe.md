@@ -105,3 +105,34 @@ Une Pull Request (PR) est une méthode pour soumettre des contributions à un pr
 7. **Attendez la revue** : Les propriétaires du dépôt original examineront vos modifications. Ils peuvent demander des modifications supplémentaires ou accepter et fusionner vos modifications avec le projet principal.
 
 Notez que ce processus peut varier légèrement en fonction de la plateforme que vous utilisez (GitHub, GitLab, Bitbucket, etc.).
+
+---------------------
+
+## .gitignore
+
+Le fichier `.gitignore` est un fichier texte qui indique à Git quels fichiers ou répertoires ignorer dans un projet. Typiquement, cela inclut les fichiers générés automatiquement par l'IDE, les fichiers de build, les logs, les fichiers de cache, etc.
+
+Voici comment créer un fichier `.gitignore` :
+
+1. Dans le répertoire racine de votre projet, créez un nouveau fichier et nommez-le `.gitignore`.
+
+2. Ouvrez le fichier `.gitignore` dans un éditeur de texte.
+
+3. Ajoutez les noms des fichiers ou des répertoires que vous voulez que Git ignore. Chaque entrée doit être sur une nouvelle ligne. Par exemple :
+
+    \`\`\`
+    # Ignore les fichiers .log
+    *.log
+
+    # Ignore le répertoire build/
+    build/
+
+    # Ignore le fichier spécifique temp.txt
+    temp.txt
+    \`\`\`
+
+4. Enregistrez et fermez le fichier.
+
+Maintenant, Git ignorera les fichiers et répertoires spécifiés dans le fichier `.gitignore`.
+
+Notez que le fichier `.gitignore` lui-même doit être ajouté à Git. Cela permet à d'autres développeurs de partager les mêmes règles d'ignorance.
