@@ -1,12 +1,9 @@
-# Tutoriel Git en Markdown
+# Tutoriel Git
 
 ## Introduction
 
 Git est un système de contrôle de version distribué qui permet de suivre les modifications apportées au code source pendant le développement du logiciel. Il est conçu pour gérer tout, des petits aux grands projets avec rapidité et efficacité.
 
-## Installation
-
-Pour installer Git, visitez le [site officiel de Git](https://git-scm.com/downloads) et téléchargez le logiciel pour votre système d'exploitation.
 
 ## Configuration initiale
 
@@ -65,6 +62,3 @@ Pour récupérer les modifications d'un dépôt distant et les fusionner avec vo
 git pull origin nom_de_la_branche
 \`\`\`
 
-## Conclusion
-
-Ceci est un aperçu de base de l'utilisation de Git. Git a beaucoup plus de fonctionnalités et d'options. Pour en savoir plus, consultez la [documentation officielle de Git](https://git-scm.com/doc).
