@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Git est un système de contrôle de version distribué qui permet de suivre les modifications apportées au code source pendant le développement du logiciel. Il est conçu pour gérer tout, des petits aux grands projets avec rapidité et efficacité.
+Git est une plateforme de contrôle de version distribué qui traque les changements réalisés dans le code source pendant le processus de développement logiciel. Sa conception vise à gérer des projets de toutes tailles, offrant rapidité et efficacité, qu'il s'agisse de petites modifications ou de vastes développements.
 
 
 ## Configuration initiale
@@ -10,8 +10,8 @@ Git est un système de contrôle de version distribué qui permet de suivre les 
 Après l'installation, vous devez configurer votre nom d'utilisateur et votre adresse e-mail car Git insère ces informations dans chaque commit.
 
 \`\`\`
-git config --global user.name "Votre Nom"
-git config --global user.email "votreemail@example.com"
+git config --global user.name "Votre NOM"
+git config --global user.email "votre-email@example.com"
 \`\`\`
 
 ## Créer un nouveau dépôt
@@ -43,7 +43,7 @@ Pour ajouter tous les fichiers modifiés, utilisez `git add .`.
 Ensuite, vous pouvez confirmer vos changements avec la commande `git commit`.
 
 \`\`\`
-git commit -m "Message de commit"
+git commit -m "Nom du commit"
 \`\`\`
 
 ## Pousser les changements
@@ -103,8 +103,6 @@ Une Pull Request (PR) est une méthode pour soumettre des contributions à un pr
 6. **Créer une Pull Request** : Allez sur la page de votre dépôt forké sur GitHub, et cliquez sur le bouton "New Pull Request". Sélectionnez la branche que vous avez créée, puis cliquez sur "Create Pull Request". Ajoutez une description de vos modifications, puis cliquez sur "Create Pull Request".
 
 7. **Attendez la revue** : Les propriétaires du dépôt original examineront vos modifications. Ils peuvent demander des modifications supplémentaires ou accepter et fusionner vos modifications avec le projet principal.
-
-Notez que ce processus peut varier légèrement en fonction de la plateforme que vous utilisez (GitHub, GitLab, Bitbucket, etc.).
 
 ---------------------
 
