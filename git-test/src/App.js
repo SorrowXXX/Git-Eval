@@ -22,11 +22,11 @@ function App() {
     setSearchTerm(event.target.value);
   };
 
-  const filteredNotes = notes
-    ? notes.filter((note) =>
+  // const filteredNotes = notes
+    // ? notes.filter((note) =>
         note.title.toLowerCase().includes(searchTerm.toLowerCase())
       )
-    : [];
+   //  : [];
 
   return (
     <>
