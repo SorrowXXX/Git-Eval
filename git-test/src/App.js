@@ -14,9 +14,9 @@ function App() {
     setNotes(result);
   };
 
-  useEffect(() => {
-    fetchNotes();
-  }, []);
+  // useEffect(() => {
+     // fetchNotes();
+  // }, []);
 
   const handleSearchInputChange = (event) => {
     setSearchTerm(event.target.value);
