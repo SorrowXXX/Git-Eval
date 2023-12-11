@@ -32,6 +32,8 @@ function App() {
 
   // 7 sept commit
 
+  // 8 huit commit
+
   //const filteredNotes = notes
     ? notes.filter((note) =>
         note.title.toLowerCase().includes(searchTerm.toLowerCase())
