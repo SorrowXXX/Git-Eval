@@ -34,6 +34,8 @@ function App() {
 
   // 8 huit commit
 
+  // 9 
+
   //const filteredNotes = notes
     ? notes.filter((note) =>
         note.title.toLowerCase().includes(searchTerm.toLowerCase())
