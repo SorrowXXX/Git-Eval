@@ -24,7 +24,7 @@ function App() {
 
   //1 fst commit
 
-  
+  // 3 third commit
 
   const filteredNotes = notes
     ? notes.filter((note) =>
